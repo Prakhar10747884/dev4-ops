@@ -1,5 +1,5 @@
 
-name: Deploy to ECR
+name: Deploy to ECR and deploy
 
 on:
   push:
