@@ -64,5 +64,5 @@ jobs:
  
       run: |
  
-        kubectl apply -f regapp-deploy.yml
-        kubectl apply -f regapp-service.yml
+        kubectl apply -f deployment.yml
+        kubectl apply -f service.yml
