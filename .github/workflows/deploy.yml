@@ -6,11 +6,11 @@ on:
     branches: [ main ]
 env:
  
-  ECR_REPOSITORY: myrepo0103
+  ECR_REPOSITORY: myrepo
  
   EKS_CLUSTER_NAME: my-cluster
  
-  AWS_REGION: ap-south-1
+  AWS_REGION: us-east-2
 jobs:
  
   build:
